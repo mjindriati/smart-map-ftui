@@ -12,7 +12,7 @@ Shafa Tasya Aulia Putri (1906305303) */
 #include <conio.h>
 #include <windows.h>
 
-#define MAP_SIZE 10
+#define MAP_SIZE 10 //ukuran map 10 x 10
 
 // Struct koordinat untuk mendeklarasikan variabel koordinat lokasi
 typedef struct {
