@@ -269,7 +269,6 @@ void printMap(){
     printf("\n\t\t\t\t\t--------------------------------------------");
     printf("\n\t\t\t\t\tKeterangan:");
     printf("\n\t\t\t\t\tX: lokasi saat ini");
-    printf("\n\t\t\t\t\t-: rute");
     printf("\n\t\t\t\t\tO: jalan");
     printf("\n\t\t\t\t\t#: bukan jalan");
     printf("\n\t\t\t\t\t--------------------------------------------");
