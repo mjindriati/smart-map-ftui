@@ -103,7 +103,7 @@ void inputLocation(building* b){
     printf("\n");
     printf("\n\t\t\t\t\t==========================================");
     printf("\n\t\t\t\t\t\t      Pilihan Lokasi\t\t");
-    printf("\n\t\t\t\t\t\t\tCHILL MAP\t\t");
+    printf("\n\t\t\t\t\t\t\tSMART MAP\t\t");
     printf("\n\t\t\t\t\t==========================================");
     printf("\n\n");
 	printf("\t\t\t\t\t\t[1] Gedung 1: Dekanat\n");
