@@ -462,8 +462,8 @@ int main() {
             case 2:
                 inputDestination(&destination);
                 if (destination.name==currentLoc.name) { //jika lokasi awal sama dengan tujuan, program akan mencetak kalimat dibawah ini
-                    printf("\t\t\t\t\t\tAnda sudah berada di lokasi tujuan\n");
-                    printf("\t\t\t\t\t\tTekan 'ENTER' untuk kembali ke menu\n");
+                    printf("\t\t\t\t\t    Anda sudah berada di lokasi tujuan\n");
+                    printf("\t\t\t\t\t    Tekan 'ENTER' untuk kembali ke menu\n");
                     getch();
                 }
                 else {
