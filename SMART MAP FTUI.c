@@ -1,6 +1,6 @@
 /*
 PROYEK AKHIR DASKOM-02
-CHILL MAP
+SMART MAP
 
 Oleh:
 Amalia Kumala Dewi (1906384112)
