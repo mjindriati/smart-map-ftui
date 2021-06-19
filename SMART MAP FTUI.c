@@ -247,9 +247,11 @@ void printMap(){
     printf("\n");
     printf("\n\t\t\t\t\t\t\t     MAP\t\t\n");
     //for loop untuk mencetak map
-    for (int i=0; i<MAP_SIZE; i++){
+    int i;
+    int j;
+    for (i=0; i<MAP_SIZE; i++){
     	printf("\t\t\t\t     ");
-        for (int j=0; j<MAP_SIZE; j++){
+        for (j=0; j<MAP_SIZE; j++){
             if (currentLoc.loc.x == i && currentLoc.loc.y == j) printf("  X  "); //mencetak simbol 'X' sesuai dengan lokasi awal user
             else if (i==8&&j==4) printf("\033[0;33m  1  \033[30;43m");
             else if (i==7&&j==9) printf("\033[0;33m  2  \033[30;43m");
@@ -341,9 +343,11 @@ void searchRoute(coord dest){
         system("cls");
         printf("\n");
         printf("\n\t\t\t\t\t\t\t     MAP\t\t\n");
-        for (int i=0; i<MAP_SIZE; i++){
+	int i;
+	int j;
+        for (i=0; i<MAP_SIZE; i++){
         	printf("\t\t\t\t     ");
-            for (int j=0; j<MAP_SIZE; j++){
+            for (j=0; j<MAP_SIZE; j++){
                 if (currentLoc.loc.x == i && currentLoc.loc.y == j) printf("  X  ");
                 else if (i==dest.x&&j==dest.y) printf("  X  ");
                 else if (route[i][j]==1) printf("\033[6;37m  -  \033[30;43m");//print rute
